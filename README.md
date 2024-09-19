@@ -1,5 +1,7 @@
+<h1 align="center">Andrea Gutierrez Blanco</h1>
+###
 <div align="center">
-  <img height="150" src="https://github.com/GutBla/Gutbla/blob/main/images/Portada-banner-Gutbla.png"  />
+  <img src="https://github.com/GutBla/Gutbla/blob/main/images/Portada-banner-Gutbla.png"  />
 </div>
 
 ###
@@ -10,10 +12,6 @@
   <img src="https://img.shields.io/static/v1?message=Behance&logo=behance&label=&color=1769ff&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="behance logo"  />
   <img src="https://img.shields.io/static/v1?message=Codepen&logo=codepen&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="codepen logo"  />
 </div>
-
-###
-
-<h1 align="center">Andrea Gutierrez Blanco</h1>
 
 ###
 
