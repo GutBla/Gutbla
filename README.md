@@ -1,5 +1,5 @@
 <h1 align="center">Andrea Gutierrez Blanco</h1>
-###
+
 <div align="center">
   <img src="https://github.com/GutBla/Gutbla/blob/main/images/Portada-banner-Gutbla.png"  />
 </div>
