@@ -1,41 +1,101 @@
-<h1 align="center">Andrea Gutierrez Blanco</h1>
+<h1 align="center">¡Hola, Andrea Gutierrez 👩‍💻!</h1>
 
 <div align="center">
   <img src="https://github.com/GutBla/Gutbla/blob/main/images/Portada-banner-Gutbla.png"  />
 </div>
 
-###
+Soy ingeniera de sistemas y estudiante de ingeniería de software.  
+Puedes contactarme en: [ing.andreagutierrezblanco@gmail.com](mailto:ing.andreagutierrezblanco@gmail.com)
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=Behance&logo=behance&label=&color=1769ff&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="behance logo"  />
-  <img src="https://img.shields.io/static/v1?message=Codepen&logo=codepen&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="codepen logo"  />
-</div>
+## Sobre Mí
 
-###
+Soy una apasionada por la tecnología, la programación y el desarrollo de soluciones innovadoras.  
+En este perfil encontrarás información sobre mis habilidades, proyectos y mi stack tecnológico.
 
-<h3 align="left">Language and tools</h3>
+## Skills & Tech Stack
+
+### Languages
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=py,cpp,java,html,css,js,kotlin,bash,arduino,latex,md" />
+</a>
+
+### Databases
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite" />
+</a>
+
+### IDEs & Tools
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=vscode,androidstudio,notion,git,github,gitlab,docker" />
+</a>
+
+### Operating Systems
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=linux,windows" />
+</a>
+
+### Other Tools
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=wordpress,xd,figma,ps,ai" />
+</a>
+
+## GitHub Analytics
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=arduino,bash,py,cpp,java,html,css,js,kotlin,androidstudio,latex,md,vscode,notion,mongodb,mysql,sqlite,docker,git,github,gitlab,linux,windows,wordpress,xd,figma,ps,ai&perline=14" />
+  <a href="https://github.com/Gutbla">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Gutbla&show_icons=true&hide_border=true&title_color=94b4a4&icon_color=FFFFFF&text_color=FFFFFF&bg_color=505ff5&count_private=true&include_all_commits=true"/>
+  </a>
+  <a href="https://github.com/Gutbla">
+    <img align="center" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gutbla&text_color=FFFFFF&bg_color=505ff5&title_color=94b4a4&langs_count=15&layout=compact&hide_border=true" />
   </a>
 </p>
 
+## My Projects 🚀
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://github.com/Gutbla/PROJECT_Plant_Growth_Simulation">
+        <img src="https://raw.githubusercontent.com/GutBla/PROJECT_Plant_Growth_Simulation/refs/heads/master/images/Portada_Plant_Growth_Simulation.png" width="80%" style="border-radius: 10px;" alt="Plant Growth Simulation">
+      </a>
+      <br>
+      <a href="https://github.com/Gutbla/PROJECT_Plant_Growth_Simulation">Plant Growth Simulation</a>
+    </td>
+        <td width="33%" align="center">
+      <a href="https://github.com/Gutbla/PROJECT_Base_de_Datos_Heladeria_Shikashika">
+        <img src="https://raw.githubusercontent.com/GutBla/PROJECT_Base_de_Datos_Heladeria_Shikashika/refs/heads/master/images/Portada_Base_de_Datos_Heladeria_ShikaShika.png" width="80%" style="border-radius: 10px;" alt="Base de Datos Heladería Shika Shika">
+      </a>
+      <br>
+      <a href="https://github.com/Gutbla/PROJECT_Base_de_Datos_Heladeria_Shikashika">Base de Datos Heladería Shika Shika</a>
+    </td>
+        <td width="33%" align="center">
+      <a href="https://github.com/Gutbla/PROJECT_Chess_Sorting_Algorithms">
+        <img src="https://raw.githubusercontent.com/GutBla/PROJECT_Chess_Sorting_Algorithms/refs/heads/master/images/Protada_Chess_Sorting_Algorithms.png" width="80%" style="border-radius: 10px;" alt="Chess & Sorting Algorithms">
+      </a>
+      <br>
+      <a href="https://github.com/Gutbla/PROJECT_Chess_Sorting_Algorithms">Chess & Sorting Algorithms</a>
+    </td>
+  </tr>
+</table>
+
+## Contact Me
+
+<a href="mailto:ing.andreagutierrezblanco@gmail.com">
+  <img src="https://skillicons.dev/icons?i=gmail" />
+</a>
+<a href="https://discord.com/users/TU_ID_DISCORD">
+  <img src="https://skillicons.dev/icons?i=discord" />
+</a>
+<a href="https://www.linkedin.com/in/TU_LINKEDIN">
+  <img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
+<a href="https://www.behance.net/TU_BEHANCE">
+  <img src="https://skillicons.dev/icons?i=behance" />
+</a>
+<a href="https://codepen.io/TU_CODEPEN">
+  <img src="https://skillicons.dev/icons?i=codepen" />
+</a>
 
 
 
-</p>
-###
 
-<h3 align="left">My Stats</h3>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=GutblA&locale=es&hide_title=true&layout=compact&card_width=320&langs_count=8&theme=github_dark&hide_border=true&order=2" height="200" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=GutblA&locale=es&mode=daily&theme=github_dark&hide_border=true&border_radius=5&date_format=M%20j%5B,%20Y%5D&order=3" height="200" alt="streak graph"  />
-</div>
-
-###
