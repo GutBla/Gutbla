@@ -112,16 +112,17 @@ In this profile, you will find information about my skills, projects, and tech s
 
 
 ## Contact Me 📧
-
-<a href="mailto:ing.andreagutierrezblanco@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" />
-</a>
-<a href="https://discord.com/users/TU_ID_DISCORD">
-  <img src="https://skillicons.dev/icons?i=discord" />
-</a>
-<a href="https://www.linkedin.com/in/TU_LINKEDIN">
-  <img src="https://skillicons.dev/icons?i=linkedin" />
-</a>
-<a href="https://codepen.io/TU_CODEPEN">
-  <img src="https://skillicons.dev/icons?i=codepen" />
-</a>
+<p align="center">
+  <a href="mailto:ing.andreagutierrezblanco@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" />
+  </a>
+  <a href="https://discord.com/users/TU_ID_DISCORD">
+    <img src="https://skillicons.dev/icons?i=discord" />
+  </a>
+  <a href="https://www.linkedin.com/in/TU_LINKEDIN">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+  <a href="https://codepen.io/TU_CODEPEN">
+    <img src="https://skillicons.dev/icons?i=codepen" />
+  </a>
+</p>
