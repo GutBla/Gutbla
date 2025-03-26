@@ -67,7 +67,7 @@ In this profile, you will find information about my skills, projects, and tech s
       </p>
       <p align="center">
         <a href="https://github.com/Gutbla/PROJECT_Plant_Growth_Simulation" target="blank">
-          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
         </a>
       </p>
     </td>
@@ -79,7 +79,7 @@ In this profile, you will find information about my skills, projects, and tech s
       </p>
       <p align="center">
         <a href="https://github.com/Gutbla/PROJECT_Base_de_Datos_Heladeria_Shikashika" target="blank">
-          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
         </a>
       </p>
     </td>
@@ -91,7 +91,7 @@ In this profile, you will find information about my skills, projects, and tech s
       </p>
       <p align="center">
         <a href="https://github.com/Gutbla/PROJECT_Chess_Sorting_Algorithms" target="blank">
-          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
         </a>
       </p>
     </td>
@@ -103,7 +103,7 @@ In this profile, you will find information about my skills, projects, and tech s
       </p>
       <p align="center">
         <a href="https://github.com/Gutbla/PROJECT_Roulette_Conteo_Combinatoria_y_Probabilidad" target="blank">
-          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
         </a>
       </p>
     </td>
