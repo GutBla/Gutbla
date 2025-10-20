@@ -1,45 +1,45 @@
-<h1 align="center">Hello, Andrea Gutierrez 👩‍💻!</h1>
+<h1 align="center">Hello, Andrea Gutierrez</h1>
 
 <div align="center">
-  <img src="https://github.com/GutBla/Gutbla/blob/main/images/Portada-banner-Gutbla.png"  />
+  <img src="https://github.com/GutBla/Gutbla/blob/main/images/Banner_Github.png" />
 </div>
 
-I am a systems engineer and software engineering student.  
+I am a Systems Engineer and Software Engineering student.  
 You can contact me at: [ing.andreagutierrezblanco@gmail.com](mailto:ing.andreagutierrezblanco@gmail.com)
 
-## About Me 📝
+## About Me
 
 I am passionate about technology, programming, and developing innovative solutions.  
-In this profile, you will find information about my skills, projects, and tech stack.
+This profile contains information about my skills, projects, and technology stack.
 
-## Skills & Tech Stack ⚙️
+## Skills & Technology Stack
 
-### Languages 💻
+### Languages
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=py,cpp,java,html,css,js,kotlin,bash,arduino,latex,md" />
 </a>
 
-### Databases 🗃️
+### Databases
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite" />
 </a>
 
-### IDEs & Tools 🛠️
+### IDEs & Tools
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=vscode,androidstudio,notion,git,github,gitlab,docker" />
 </a>
 
-### Operating Systems 🖥️
+### Operating Systems
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=linux,windows" />
 </a>
 
-### Other Tools 🧰
+### Design & Other Tools
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=wordpress,xd,figma,ps,ai" />
 </a>
 
-## GitHub Analytics 📊
+## GitHub Analytics
 
 <p align="center">
   <a href="https://github.com/Gutbla">
@@ -54,8 +54,9 @@ In this profile, you will find information about my skills, projects, and tech s
   </a>
 </p>
 
-## My Projects 🚀
-<h2>Some Projects 👨🏻‍💻</h2>
+## Projects
+
+<h2>Selected Projects</h2>
 
 <table align="left">
   <tr border="none">
@@ -67,7 +68,7 @@ In this profile, you will find information about my skills, projects, and tech s
       </p>
       <p align="center">
         <a href="https://github.com/Gutbla/PROJECT_Plant_Growth_Simulation" target="blank">
-          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
+          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
         </a>
       </p>
     </td>
@@ -79,50 +80,24 @@ In this profile, you will find information about my skills, projects, and tech s
       </p>
       <p align="center">
         <a href="https://github.com/Gutbla/PROJECT_Base_de_Datos_Heladeria_Shikashika" target="blank">
-          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
+          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
         </a>
       </p>
     </td>
-    <td width="25%" align="center">
-      <p align="center">
-        <a href="https://github.com/Gutbla/PROJECT_Chess_Sorting_Algorithms" title="Go to GitHub">
-          <img align="center" width="100%" src="https://raw.githubusercontent.com/GutBla/PROJECT_Chess_Sorting_Algorithms/refs/heads/master/images/Protada_Chess_Sorting_Algorithms.png" alt="Chess & Sorting Algorithms" />
-        </a>
-      </p>
-      <p align="center">
-        <a href="https://github.com/Gutbla/PROJECT_Chess_Sorting_Algorithms" target="blank">
-          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
-        </a>
-      </p>
-    </td>
-    <td width="25%" align="center">
-      <p align="center">
-        <a href="https://github.com/Gutbla/PROJECT_Roulette_Conteo_Combinatoria_y_Probabilidad" title="Go to GitHub">
-          <img align="center" width="100%" src="https://raw.githubusercontent.com/GutBla/PROJECT_Roulette_Conteo_Combinatoria_y_Probabilidad/refs/heads/master/images/Portada_Roulete_Conteo_Combinatoria_y_Probabilidad.png" alt="Roulette Counting & Probability" />
-        </a>
-      </p>
-      <p align="center">
-        <a href="https://github.com/Gutbla/PROJECT_Roulette_Conteo_Combinatoria_y_Probabilidad" target="blank">
-          <img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
-        </a>
-      </p>
-    </td>
+    <!-- Repite las celdas para otros proyectos -->
   </tr>
 </table>
 
+## Contact
 
-## Contact Me 📧
 <p align="center">
   <a href="mailto:ing.andreagutierrezblanco@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
-  <a href="https://discord.com/users/TU_ID_DISCORD">
-    <img src="https://skillicons.dev/icons?i=discord" />
-  </a>
   <a href="https://www.linkedin.com/in/TU_LINKEDIN">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
-  <a href="https://codepen.io/TU_CODEPEN">
-    <img src="https://skillicons.dev/icons?i=codepen" />
+  <a href="https://github.com/GutBla">
+    <img src="https://skillicons.dev/icons?i=github" />
   </a>
 </p>
