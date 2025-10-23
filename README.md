@@ -16,7 +16,7 @@ This profile contains information about my skills, projects, and technology stac
 
 ### Languages
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=py,cpp,java,html,css,js,kotlin,bash,arduino,latex,md" />
+  <img src="https://skillicons.dev/icons?i=py,cpp,java,html,css,cs,js,kotlin,bash,arduino,latex,md" />
 </a>
 
 ### Databases
