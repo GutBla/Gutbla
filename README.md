@@ -89,21 +89,6 @@ This profile contains information about my skills, projects, and technology stac
   </a>
 </p>
 
-## GitHub Analytics
-
-<p align="center">
-  <a href="https://github.com/Gutbla">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Gutbla&show_icons=true&hide_border=true&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5&bg_color=1a1b26&count_private=true&include_all_commits=true&border_radius=10"/>
-  </a>
-  <a href="https://github.com/Gutbla">
-    <img align="center" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gutbla&text_color=c0caf5&bg_color=1a1b26&title_color=7aa2f7&langs_count=15&layout=compact&hide_border=true&border_radius=10" />
-  </a>
-  <br>
-  <a href="https://github.com/Gutbla">
-    <img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=Gutbla&theme=tokyo-night&hide_border=true&area=true&border_radius=10"/>
-  </a>
-</p>
-
 # Projects
 
 ## Selected Projects

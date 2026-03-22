@@ -323,19 +323,45 @@
     object-position: top center;
     border-radius: 11px;
     filter: grayscale(100%) brightness(0.88);
-    transition:
+    transition: 
         filter 0.45s ease,
         transform 0.4s ease,
         box-shadow 0.4s ease;
     box-shadow: 0 4px 14px rgba(0,0,0,0.22);
     cursor: pointer;
-    display: block;
 }
 
 .project-gallery img:hover {
     filter: grayscale(0%) brightness(1);
-    transform: scale(1.05) translateY(-4px);
-    box-shadow: 0 14px 32px rgba(0,0,0,0.35);
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(214,9,59,0.35);
+}
+
+.project-gallery-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.project-gallery-item img {
+    width: 100%;
+    height: 100%;
+}
+ 
+.latest-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--primary);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 12px rgba(214,9,59,0.4);
+    z-index: 10;
 }
 
 .resources-gallery {
@@ -455,6 +481,57 @@
 @keyframes pulseGlow {
     0%, 100% { opacity: 0.4; transform: translate(-50%, -50%) scale(1); }
     50%       { opacity: 0.65; transform: translate(-50%, -50%) scale(1.05); }
+}
+
+@media (max-width: 1024px) {
+    .project-gallery {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+}
+ 
+@media (max-width: 768px) {
+    .project-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .project-gallery img {
+        aspect-ratio: 3 / 4;
+    }
+}
+ 
+@media (max-width: 600px) {
+    .project-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    
+    .project-gallery img {
+        border-radius: 8px;
+    }
+}
+ 
+@media (max-width: 480px) {
+    .project-gallery {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .project-gallery img {
+        aspect-ratio: 210 / 297;
+        max-height: 400px;
+    }
+}
+ 
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex !important;
+    }
+    
+    .global-sidebar {
+        justify-content: space-between;
+    }
 }
 
 @media (max-width: 1200px) {
