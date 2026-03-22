@@ -1,0 +1,340 @@
+{
+  "tabs": [
+    {
+      "id": "documentacion",
+      "label": "Documentación",
+      "sections": [
+        {
+          "title": "Ciencias Exactas",
+          "icon": "fas fa-calculator",
+          "items": [
+            {
+              "title": "Lógica Matemática",
+              "description": "Fundamentos de la lógica: proposiciones, conectivos, tablas de verdad y leyes de inferencia.",
+              "image": "../images/document_gallery/Exact_Sciences/Portada_Logica.png",
+              "pdf": "../pdfs/Exact_Sciences/Logica.pdf"
+            },
+            {
+              "title": "Matemáticas Discretas",
+              "description": "Conceptos de conjuntos, relaciones, grafos y combinatoria aplicados a informática.",
+              "image": "../images/document_gallery/Exact_Sciences/Portada_Matematicas_discretas.png",
+              "pdf": "../pdfs/Exact_Sciences/Matematicas_Discretas.pdf"
+            },
+            {
+              "title": "Álgebra Lineal",
+              "description": "Introducción al álgebra lineal: vectores, matrices, determinantes y sistemas de ecuaciones.",
+              "image": "../images/document_gallery/Exact_Sciences/Portada_Álgebra_Lineal.png",
+              "pdf": "../pdfs/Exact_Sciences/Algebra_Lineal.pdf"
+            },
+            {
+              "title": "Cálculo",
+              "description": "Fundamentos del cálculo: límites, derivadas, reglas de integración y aplicaciones.",
+              "image": "../images/document_gallery/Exact_Sciences/Portada_Calculo.png",
+              "pdf": "../pdfs/Exact_Sciences/Calculo.pdf"
+            },
+            {
+              "title": "Estadística",
+              "description": "Introducción a la estadística: análisis de datos, probabilidad, distribuciones y aplicaciones.",
+              "image": "../images/document_gallery/Exact_Sciences/Portada_Estadistica.png",
+              "pdf": "../pdfs/Exact_Sciences/Estadistica.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Base de Datos",
+          "icon": "fas fa-database",
+          "items": [
+            {
+              "title": "Introducción a Bases de Datos",
+              "description": "Visión general: modelos, arquitectura y principales sistemas gestores.",
+              "image": "../images/document_gallery/Database/Portada_Base_de_Datos_desde_Cero.png",
+              "pdf": "../pdfs/Database/Base_de_Datos_desde_Cero.pdf"
+            },
+            {
+              "title": "Bases Relacionales con SQL",
+              "description": "Principios de bases de datos relacionales: diseño de esquemas y consultas SQL.",
+              "image": "../images/document_gallery/Database/Portada_Base_de_datos_con_Sql.png",
+              "pdf": "../pdfs/Database/Base_de_datos_con_SQL.pdf"
+            },
+            {
+              "title": "MySQL Desde Cero",
+              "description": "Aprende instalación, consultas básicas y avanzadas en MySQL.",
+              "image": "../images/document_gallery/Database/Portada_MySql_desde_Cero.png",
+              "pdf": "../pdfs/Database/MySQL_desde_Cero.pdf"
+            },
+            {
+              "title": "SQL Server Desde Cero",
+              "description": "Introducción a Microsoft SQL Server: instalación, T-SQL y administración.",
+              "image": "../images/document_gallery/Database/Portada_SQL_Server_desde_Cero.png",
+              "pdf": "../pdfs/Database/SQL_Server_desde_Cero.pdf"
+            },
+            {
+              "title": "MongoDB Desde Cero",
+              "description": "Guía completa sobre instalación, operaciones CRUD y modelado en MongoDB.",
+              "image": "../images/document_gallery/Database/Portada_MongoDB_desde_Cero.png",
+              "pdf": "../pdfs/Database/MongoDB_desde_Cero.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Desarrollo de Software",
+          "icon": "fas fa-code",
+          "items": [
+            {
+              "title": "Metodología Scrum",
+              "description": "Introducción a Scrum: roles, eventos, artefactos y gestión ágil de proyectos.",
+              "image": "../images/document_gallery/Software_Development/Portada_Metodologia_Scrum.png",
+              "pdf": "../pdfs/Software_Development/Metodologia_Scrum.pdf"
+            },
+            {
+              "title": "Git desde Cero",
+              "description": "Fundamentos de Git: control de versiones, comandos básicos y flujo de trabajo.",
+              "image": "../images/document_gallery/Software_Development/Portada_Git_desde_Cero.png",
+              "pdf": "../pdfs/Software_Development/Git_desde_Cero.pdf"
+            },
+            {
+              "title": "GitHub desde Cero",
+              "description": "Aprende a usar GitHub: repositorios, commits, ramas y colaboración.",
+              "image": "../images/document_gallery/Software_Development/Portada_GitHub_desde_Cero.png",
+              "pdf": "../pdfs/Software_Development/GitHub_desde_Cero.pdf"
+            },
+            {
+              "title": "GitLab desde Cero",
+              "description": "Uso de GitLab para control de versiones, CI/CD y gestión de proyectos.",
+              "image": "../images/document_gallery/Software_Development/Portada_GitLab_desde_Cero.png",
+              "pdf": "../pdfs/Software_Development/GitLab_desde_Cero.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Sistemas Operativos",
+          "icon": "fas fa-desktop",
+          "items": [
+            {
+              "title": "Fundamentos de Sistemas Operativos",
+              "description": "Conceptos clave: kernels, gestión de procesos, memoria y sistemas de archivos.",
+              "image": "../images/document_gallery/Operating_Systems/Portada_Sistemas_Operativos_desde_Cero.png",
+              "pdf": "../pdfs/Operating_Systems/Sistemas_Operativos_desde_Cero.pdf"
+            },
+            {
+              "title": "Linux Desde Cero",
+              "description": "Aprende comandos básicos, administración de usuarios y shell scripting en Linux.",
+              "image": "../images/document_gallery/Operating_Systems/Portada_Linux_desde_cero.png",
+              "pdf": "../pdfs/Operating_Systems/Linux_desde_cero.pdf"
+            },
+            {
+              "title": "Windows Desde Cero",
+              "description": "Guía de uso de Windows: configuración, seguridad y administración básica.",
+              "image": "../images/document_gallery/Operating_Systems/Portada_Windows_desde_Cero.png",
+              "pdf": "../pdfs/Operating_Systems/Windows_desde_Cero.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Programación",
+          "icon": "fas fa-code",
+          "items": [
+            {
+              "title": "Programación Desde Cero",
+              "description": "Introducción a conceptos de programación: variables, estructuras de control y funciones.",
+              "image": "../images/document_gallery/Programming/Portada_Programacion_desde_cero.png",
+              "pdf": "../pdfs/Programming/Programacion_desde_Cero.pdf"
+            },
+            {
+              "title": "Programación en Python",
+              "description": "Curso completo de Python: sintaxis, estructuras de datos y bibliotecas básicas.",
+              "image": "../images/document_gallery/Programming/Portada_Programacion_con_Python.png",
+              "pdf": "../pdfs/Programming/Programacion_con_Python.pdf"
+            },
+            {
+              "title": "Programación en Java",
+              "description": "Aprende Java: clases, objetos, herencia y manejo de excepciones.",
+              "image": "../images/document_gallery/Programming/Portada_Programacion_con_Java.png",
+              "pdf": "../pdfs/Programming/Programacion_con_Java.pdf"
+            },
+            {
+              "title": "Programación con Arduino",
+              "description": "Introducción a la plataforma Arduino: sensores, actuadores y ejemplos prácticos.",
+              "image": "../images/document_gallery/Programming/Portada_Programacion_con_Arduino.png",
+              "pdf": "../pdfs/Programming/Programacion_con_Arduino.pdf"
+            },
+            {
+              "title": "Programación en C++",
+              "description": "Aprende los fundamentos de C++: sintaxis, programación orientada a objetos, punteros y manejo de memoria.",
+              "image": "../images/document_gallery/Programming/Portada_Programacion_con_C++.png",
+              "pdf": "../pdfs/Programming/Programacion_con_C++.pdf"
+            },
+            {
+              "title": "Programación en C#",
+              "description": "Aprende los fundamentos de C#: sintaxis, programación orientada a objetos, manejo de eventos y desarrollo en .NET.",
+              "image": "../images/document_gallery/Programming/Portada_Programacion_con_CSharp.png",
+              "pdf": "../pdfs/Programming/Programacion_con_CSharp.pdf"
+            },
+            {
+              "title": "Programación en JavaScript",
+              "description": "Aprende los fundamentos de JavaScript: sintaxis, variables, funciones, eventos y manipulación del DOM.",
+              "image": "../images/document_gallery/Programming/Programación_con_JavaScript.png",
+              "pdf": "../pdfs/Programming/Programacion_con_JavaScript.pdf"
+            },
+            {
+              "title": "Estructura con HTML",
+              "description": "Aprende a estructurar páginas web usando HTML: etiquetas, elementos, listas, tablas y formularios.",
+              "image": "../images/document_gallery/Programming/Estructura_con_HTML.png",
+              "pdf": "../pdfs/Programming/Estructura_con_HTML.pdf"
+            },
+            {
+              "title": "Estilo con CSS",
+              "description": "Aprende a dar estilo a tus páginas web con CSS: selectores, propiedades, diseño responsivo y animaciones.",
+              "image": "../images/document_gallery/Programming/Estilo_con_CSS.png",
+              "pdf": "../pdfs/Programming/Estilo_con_CSS.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Redes de Computadoras",
+          "icon": "fas fa-network-wired",
+          "items": [
+            {
+              "title": "Redes de Computadoras desde Cero",
+              "description": "Conceptos básicos de redes: modelos OSI, TCP/IP, direccionamiento IP y configuración.",
+              "image": "../images/document_gallery/Networks/Portada_Redes_de_Computadoras_desde_Cero.png",
+              "pdf": "../pdfs/Networks/Redes_desde_Cero.pdf"
+            },
+            {
+              "title": "Docker desde Cero",
+              "description": "Introducción a Docker: contenedores, imágenes, volúmenes y despliegue de aplicaciones.",
+              "image": "../images/document_gallery/Networks/Portada_Docker_desde_Cero.png",
+              "pdf": "../pdfs/Networks/Docker_desde_Cero.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Documentación Técnica",
+          "icon": "fas fa-file-code",
+          "items": [
+            {
+              "title": "Cheat Sheet Markdown",
+              "description": "Referencia rápida de sintaxis Markdown: encabezados, listas, enlaces e imágenes.",
+              "image": "../images/document_gallery/Documentation/Portada_Markdown_desde_Cero.png",
+              "pdf": "../pdfs/Documentation/Markdown_Cheat_Sheet.pdf"
+            },
+            {
+              "title": "Cheat Sheet LaTeX",
+              "description": "Guía rápida de sintaxis LaTeX: ecuaciones, tablas y referencias bibliográficas.",
+              "image": "../images/document_gallery/Documentation/Portada_Latex_desde_Cero.png",
+              "pdf": "../pdfs/Documentation/LaTeX_Cheat_Sheet.pdf"
+            },
+            {
+              "title": "Cheat Sheet Mermaid",
+              "description": "Referencia rápida de diagramas con Mermaid: flowcharts, secuencias y más.",
+              "image": "../images/document_gallery/Documentation/Portada_Mermaid_desde_Cero.png",
+              "pdf": "../pdfs/Documentation/Mermaid_Cheat_Sheet.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hojas-trucos",
+      "label": "Hojas de Trucos",
+      "sections": [
+        {
+          "title": "Hojas de Trucos",
+          "icon": "fas fa-clipboard-list",
+          "items": [
+            {
+              "title": "Git Cheat Sheet",
+              "description": "Referencia rápida de los comandos más usados en Git.",
+              "image": "../images/document_gallery/Software_Development/Portada_Git_desde_Cero.png",
+              "pdf": "../pdfs/Software_Development/Git_Cheat_Sheet.pdf"
+            },
+            {
+              "title": "GitHub Cheat Sheet",
+              "description": "Guía completa para utilizar GitHub.",
+              "image": "../images/document_gallery/Software_Development/Portada_GitHub_desde_Cero.png",
+              "pdf": "../pdfs/Software_Development/GitHub_Cheat_Sheet.pdf"
+            },
+            {
+              "title": "GitLab Cheat Sheet",
+              "description": "Guía completa para utilizar GitLab.",
+              "image": "../images/document_gallery/Software_Development/Portada_GitLab_desde_Cero.png",
+              "pdf": "../pdfs/Software_Development/GitLab_Cheat_Sheet.pdf"
+            },
+            {
+              "title": "Markdown Cheat Sheet",
+              "description": "Referencia rápida de sintaxis Markdown.",
+              "image": "../images/document_gallery/Documentation/Portada_Markdown_desde_Cero.png",
+              "pdf": "../pdfs/Documentation/Markdown_Cheat_Sheet.pdf"
+            },
+            {
+              "title": "LaTeX Cheat Sheet",
+              "description": "Guía rápida de sintaxis LaTeX.",
+              "image": "../images/document_gallery/Documentation/Portada_Latex_desde_Cero.png",
+              "pdf": "../pdfs/Documentation/LaTeX_Cheat_Sheet.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tutoriales",
+      "label": "Tutoriales",
+      "sections": [
+        {
+          "title": "Tutoriales en Video",
+          "icon": "fas fa-video",
+          "items": [
+            {
+              "title": "Python para Principiantes",
+              "description": "Curso completo de Python desde cero.",
+              "image": "../images/document_gallery/Programming/Portada_Programacion_con_Python.png",
+              "pdf": "../pdfs/Tutorials/Python_para_Principiantes.pdf"
+            },
+            {
+              "title": "Desarrollo Web Moderno",
+              "description": "Aprende las últimas tecnologías web.",
+              "image": "../images/document_gallery/Software_Development/Portada_GitHub_desde_Cero.png",
+              "pdf": "../pdfs/Tutorials/Desarrollo_Web_Moderno.pdf"
+            },
+            {
+              "title": "Bases de Datos Avanzadas",
+              "description": "Optimización y administración de bases de datos.",
+              "image": "../images/document_gallery/Database/Portada_SQL_Server_desde_Cero.png",
+              "pdf": "../pdfs/Tutorials/Bases_de_Datos_Avanzadas.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herramientas",
+      "label": "Herramientas",
+      "sections": [
+        {
+          "title": "Herramientas Útiles",
+          "icon": "fas fa-tools",
+          "items": [
+            {
+              "title": "Generador de Diagramas",
+              "description": "Herramienta para crear diagramas de flujo, UML y más.",
+              "image": "../images/tools/Portada_Diagram_Tool.png",
+              "pdf": "../pdfs/Tools/Diagram_Tool_Guide.pdf"
+            },
+            {
+              "title": "Editor de Código",
+              "description": "Guía para configurar tu editor de código favorito.",
+              "image": "../images/tools/Portada_Code_Editor.png",
+              "pdf": "../pdfs/Tools/Code_Editor_Guide.pdf"
+            },
+            {
+              "title": "Gestor de Proyectos",
+              "description": "Herramienta para organización y gestión de proyectos.",
+              "image": "../images/tools/Portada_Project_Manager.png",
+              "pdf": "../pdfs/Tools/Project_Manager_Guide.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

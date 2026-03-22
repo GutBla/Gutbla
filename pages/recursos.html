@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recursos - Andrea Gutiérrez Blanco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="icon" type="image/png" href="../images/icon/Gutbla_icon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+  </head>
+  <body>
+
+    <div class="global-sidebar">
+      <div class="sidebar-logo">
+        <img src="../images/icon/Gutbla_logo.svg" alt="Logo" />
+      </div>
+      <nav class="sidebar-nav">
+        <ul>
+          <li><a href="../index.html"><i class="fas fa-home"></i> <span>Inicio</span></a></li>
+          <li><a href="sobre-mi.html"><i class="fas fa-user"></i> <span>Sobre Mí</span></a></li>
+          <li><a href="proyectos.html"><i class="fas fa-project-diagram"></i> <span>Proyectos</span></a></li>
+          <li><a href="portafolio.html"><i class="fas fa-briefcase"></i> <span>Portafolio</span></a></li>
+          <li><a href="recursos.html" class="active"><i class="fas fa-book"></i> <span>Recursos</span></a></li>
+          <li><a href="blog.html"><i class="fas fa-blog"></i> <span>Blog</span></a></li>
+          <li><a href="contacto.html"><i class="fas fa-envelope"></i> <span>Contacto</span></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="main-container">
+
+      <section class="page-hero">
+        <h1>Recursos Educativos</h1>
+        <p>Materiales de aprendizaje y documentación técnica</p>
+      </section>
+
+      <div class="sec">
+        <!-- Tabs y contenido poblados automáticamente por data-loader.js desde data/resources.json -->
+        <div class="resource-tabs"></div>
+        <div class="resources-json-target"></div>
+      </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal" id="modal">
+      <button class="close-btn">&times;</button>
+      <div class="modal-content">
+        <div class="modal-left">
+          <h2 class="modal-title"><i class="fas fa-file-alt"></i> Título</h2>
+          <p class="modal-description">Descripción del contenido del modal.</p>
+          <div class="modal-buttons">
+            <a href="#" class="btn btn-primary view-btn"><i class="fas fa-eye"></i> Ver Documento</a>
+            <a href="#" class="btn btn-secondary download-btn"><i class="fas fa-download"></i> Descargar PDF</a>
+          </div>
+        </div>
+        <div class="modal-right">
+          <img class="modal-image" src="" alt="Imagen del documento" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../images/icon/Gutbla_logo.svg" alt="Logo" class="logo-img" />
+        </div>
+        <div class="footer-links">
+          <a href="../index.html"><i class="fas fa-home"></i> Inicio</a>
+          <a href="sobre-mi.html"><i class="fas fa-user"></i> Sobre Mí</a>
+          <a href="proyectos.html"><i class="fas fa-project-diagram"></i> Proyectos</a>
+          <a href="portafolio.html"><i class="fas fa-briefcase"></i> Portafolio</a>
+          <a href="recursos.html"><i class="fas fa-book"></i> Recursos</a>
+          <a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
+        </div>
+        <div class="copyright">
+          &copy; 2025 Andrea Gutiérrez Blanco. Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/recursos.js"></script>
+    <script src="../js/data-loader.js"></script>
+  </body>
+</html>
