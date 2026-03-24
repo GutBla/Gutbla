@@ -179,13 +179,13 @@
             {
               "title": "Estructura con HTML",
               "description": "Aprende a estructurar páginas web usando HTML: etiquetas, elementos, listas, tablas y formularios.",
-              "image": "images/document_gallery/Programming/Estructura_con_HTML.png",
+              "image": "images/document_gallery/Programming/Portada_Estructura_con_HTML.png",
               "pdf": "pdfs/Programming/Estructura_con_HTML.pdf"
             },
             {
               "title": "Estilo con CSS",
               "description": "Aprende a dar estilo a tus páginas web con CSS: selectores, propiedades, diseño responsivo y animaciones.",
-              "image": "images/document_gallery/Programming/Estilo_con_CSS.png",
+              "image": "images/document_gallery/Programming/Portada_Estilo_con_CSS.png",
               "pdf": "pdfs/Programming/Estilo_con_CSS.pdf"
             }
           ]
