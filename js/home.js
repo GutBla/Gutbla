@@ -1,40 +1,54 @@
 document.addEventListener("DOMContentLoaded", function () {
+  initTypewriter();
   initPlanetarySystem();
-  initTitleRotator();
   initResourceOverlays();
   loadLatestProjectsFromJSON();
 });
 
-function initTitleRotator() {
-  const h2 = document.querySelector(".hero h2");
-  if (!h2) return;
+function initTypewriter() {
+  const textElement = document.getElementById("typewriter-text");
+  if (!textElement) return;
 
-  const titles = [
+  const phrases = [
     "Ingeniera de Sistemas",
     "Marketing Digital",
     "Desarrollo de Software",
   ];
-  let idx = 0;
 
-  setTimeout(() => {
-    h2.classList.remove(
-      "animate__animated",
-      "animate__fadeInDown",
-      "animate__delay-1s",
-    );
-    h2.classList.add("hero-title-rotator");
-    h2.textContent = titles[0];
+  let phraseIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+  let typingSpeed = 100;
+  let deletingSpeed = 50;
+  let pauseEnd = 2000;
+  let pauseStart = 500;
 
-    setInterval(() => {
-      h2.classList.add("rotator-fade-out");
+  function type() {
+    const currentPhrase = phrases[phraseIndex];
 
-      setTimeout(() => {
-        idx = (idx + 1) % titles.length;
-        h2.textContent = titles[idx];
-        h2.classList.remove("rotator-fade-out");
-      }, 450);
-    }, 2800);
-  }, 1500);
+    if (isDeleting) {
+      textElement.textContent = currentPhrase.substring(0, charIndex - 1);
+      charIndex--;
+    } else {
+      textElement.textContent = currentPhrase.substring(0, charIndex + 1);
+      charIndex++;
+    }
+
+    let delay = isDeleting ? deletingSpeed : typingSpeed;
+
+    if (!isDeleting && charIndex === currentPhrase.length) {
+      delay = pauseEnd;
+      isDeleting = true;
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+      delay = pauseStart;
+    }
+
+    setTimeout(type, delay);
+  }
+
+  setTimeout(type, 1500);
 }
 
 function initPlanetarySystem() {
@@ -116,10 +130,12 @@ function initResourceOverlays() {
 async function loadLatestProjectsFromJSON() {
   const gallery = document.querySelector(".project-gallery");
   if (!gallery) return;
+
   try {
     const res = await fetch("data/projects.json");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const projects = await res.json();
+
     const sorted = [...projects].sort(
       (a, b) => new Date(b.date) - new Date(a.date),
     );
@@ -166,17 +182,21 @@ function fillLatestCard(project) {
   if (!project) return;
   const card = document.querySelector(".latest-project-card");
   if (!card) return;
+
   const set = (sel, val, attr = "textContent") => {
     const el = card.querySelector(sel);
     if (el) el[attr] = val;
   };
+
   set(".latest-project-title", project.title);
   set(".latest-project-desc", project.description);
+
   const imgEl = card.querySelector(".latest-project-img");
   if (imgEl) {
     imgEl.src = project.image;
     imgEl.alt = project.title;
   }
+
   if (project.date) {
     const d = new Date(project.date);
     set(
@@ -184,6 +204,7 @@ function fillLatestCard(project) {
       d.toLocaleDateString("es-ES", { year: "numeric", month: "long" }),
     );
   }
+
   const tagsEl = card.querySelector(".latest-project-tags");
   if (tagsEl && project.tags) {
     tagsEl.innerHTML = project.tags.map((t) => `<span>${t}</span>`).join("");
@@ -193,6 +214,7 @@ function fillLatestCard(project) {
 function fallbackProjectsGrayscale() {
   const gallery = document.querySelector(".project-gallery");
   if (!gallery) return;
+
   const imgs = Array.from(gallery.querySelectorAll("img"));
   if (imgs.length > 5) {
     imgs.slice(0, imgs.length - 5).forEach((img) => {

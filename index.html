@@ -1,279 +1,151 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andrea Gutiérrez Blanco - Portafolio Profesional</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link rel="icon" type="image/png" href="images/icon/Gutbla_icon.png" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Andrea Gutiérrez Blanco - Portafolio Profesional</title>
 
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/home.css" />
-  </head>
-  <body>
+<!-- Iconos y fuentes -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<link rel="icon" type="image/png" href="images/icon/Gutbla_icon.png" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <aside class="global-sidebar">
-      <div class="sidebar-logo">
-        <img
-          src="images/icon/Gutbla_logo.svg"
-          alt="Logo Andrea Gutiérrez Blanco"
-        />
+<!-- Estilos propios -->
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+<!-- ===== Sidebar Global ===== -->
+<aside class="global-sidebar">
+  <div class="sidebar-logo">
+    <img src="images/icon/Gutbla_logo.svg" alt="Logo Andrea Gutiérrez Blanco" />
+  </div>
+  <nav class="sidebar-nav" aria-label="Menú de navegación principal">
+    <ul>
+      <li><a href="index.html" class="active"><i class="fas fa-home"></i> <span>Inicio</span></a></li>
+      <li><a href="pages/sobre-mi.html"><i class="fas fa-user"></i> <span>Sobre Mí</span></a></li>
+      <li><a href="pages/proyectos.html"><i class="fas fa-project-diagram"></i> <span>Proyectos</span></a></li>
+      <li><a href="pages/portafolio.html"><i class="fas fa-briefcase"></i> <span>Portafolio</span></a></li>
+      <li><a href="pages/recursos.html"><i class="fas fa-book"></i> <span>Recursos</span></a></li>
+      <li><a href="pages/blog.html"><i class="fas fa-blog"></i> <span>Blog</span></a></li>
+      <li><a href="pages/contacto.html"><i class="fas fa-envelope"></i> <span>Contacto</span></a></li>
+    </ul>
+  </nav>
+</aside>
+
+<!-- ===== Contenedor Principal ===== -->
+<main class="main-container">
+
+  <!-- Hero Section Mejorada -->
+  <section class="hero" role="banner" aria-label="Presentación principal">
+    <div class="hero-content">
+      <h1 class="animate__animated animate__fadeInDown">Andrea Gutiérrez Blanco</h1>
+      <h2 class="animate__animated animate__fadeInDown animate__delay-1s">
+        <span id="typewriter-text"></span><span class="typewriter-cursor">|</span>
+      </h2>
+      <p class="animate__animated animate__fadeIn animate__delay-1-5s">
+        Soy ingeniera de sistemas con formación en marketing digital. Me especializo en desarrollar experiencias digitales eficientes y estratégicas. Me gusta conectar el pensamiento lógico con la creatividad para aportar valor real.
+      </p>
+      <div class="hero-badges animate__animated animate__fadeInUp animate__delay-2s">
+        <div class="badge"><i class="fas fa-graduation-cap"></i> Ingeniería de Sistemas</div>
+        <div class="badge"><i class="fas fa-code"></i> Desarrollo de Aplicaciones</div>
+        <div class="badge"><i class="fas fa-chart-line"></i> Marketing Digital</div>
       </div>
-      <button class="menu-toggle menu-btn" aria-label="Abrir menú">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="sidebar-nav" aria-label="Menú de navegación principal">
-        <ul>
-          <li>
-            <a href="index.html" class="active"
-              ><i class="fas fa-home"></i> <span>Inicio</span></a
-            >
-          </li>
-          <li>
-            <a href="pages/sobre-mi.html"
-              ><i class="fas fa-user"></i> <span>Sobre Mí</span></a
-            >
-          </li>
-          <li>
-            <a href="pages/proyectos.html"
-              ><i class="fas fa-project-diagram"></i> <span>Proyectos</span></a
-            >
-          </li>
-          <li>
-            <a href="pages/portafolio.html"
-              ><i class="fas fa-briefcase"></i> <span>Portafolio</span></a
-            >
-          </li>
-          <li>
-            <a href="pages/recursos.html"
-              ><i class="fas fa-book"></i> <span>Recursos</span></a
-            >
-          </li>
-          <li>
-            <a href="pages/blog.html"
-              ><i class="fas fa-blog"></i> <span>Blog</span></a
-            >
-          </li>
-          <li>
-            <a href="pages/contacto.html"
-              ><i class="fas fa-envelope"></i> <span>Contacto</span></a
-            >
-          </li>
-        </ul>
-      </nav>
-    </aside>
-
-    <main class="main-container">
-
-      <section
-        class="hero"
-        role="banner"
-        aria-label="Presentación principal de Andrea Gutiérrez Blanco"
-      >
-        <div class="hero-content">
-          <h1 class="animate__animated animate__fadeInDown">
-            Andrea Gutiérrez Blanco
-          </h1>
-          <h2 class="animate__animated animate__fadeInDown animate__delay-1s">
-            Ingeniera de Sistemas | Marketing Digital
-          </h2>
-          <p class="animate__animated animate__fadeIn animate__delay-1-5s">
-            Soy ingeniera de sistemas con formación en marketing digital. Me
-            especializo en desarrollar experiencias digitales eficientes y
-            estratégicas. Me gusta conectar el pensamiento lógico con la
-            creatividad para aportar valor real.
-          </p>
-          <div
-            class="hero-badges animate__animated animate__fadeInUp animate__delay-2s"
-            aria-label="Áreas de especialización"
-          >
-            <div class="badge">
-              <i class="fas fa-graduation-cap"></i> Ingeniería de Sistemas
-            </div>
-            <div class="badge">
-              <i class="fas fa-code"></i> Desarrollo de Aplicaciones
-            </div>
-            <div class="badge">
-              <i class="fas fa-chart-line"></i> Marketing Digital
-            </div>
-          </div>
-          <div
-            class="social-links animate__animated animate__fadeInUp animate__delay-2-5s"
-          >
-            <a href="#" class="social-link" aria-label="LinkedIn"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a href="#" class="social-link" aria-label="GitHub"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a href="#" class="social-link" aria-label="Behance"
-              ><i class="fab fa-behance"></i
-            ></a>
-            <a href="#" class="social-link" aria-label="WhatsApp"
-              ><i class="fab fa-whatsapp"></i
-            ></a>
-          </div>
-        </div>
-        <div class="hero-image" aria-hidden="true">
-          <div class="planet-system">
-            <div class="planet"></div>
-            <div class="orbit"><div class="moon"></div></div>
-            <div class="profile-image">
-              <img
-                src="images/perfil/Ilustracion_Perfil.png"
-                alt="Andrea Gutiérrez Blanco - Ilustración de perfil"
-                class="profile-illustration"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="proyectos-recientes" class="sec">
-        <div class="section-header">
-          <i class="fas fa-code"></i>
-          <h2>Proyectos Recientes</h2>
-        </div>
-        <div class="project-gallery">
-          <img
-            src="images/document_gallery/Projects/Portada_Aseguramiento_de_Calidad_en_TooShop.png"
-            alt="Aseguramiento de Calidad en TooShop"
-          />
-          <img
-            src="images/document_gallery/Projects/Portada_Crowdsourced_Ideation_Solution.png"
-            alt="Crowdsourced Ideation Solution"
-          />
-          <img
-            src="images/document_gallery/Projects/Portada_Statistical_Analysis_The_Impact_of_AI_on_the_Labour_Market_by_2030.png"
-            alt="Análisis Estadístico del Impacto de la IA en el Mercado Laboral para 2030"
-          />
-          <img
-            src="images/document_gallery/Projects/Portada_Aseguramiento_de_Calidad_en_OrangeHRM.png"
-            alt="Aseguramiento de Calidad en OrangeHRM"
-          />
-          <img
-            src="images/document_gallery/Projects/Portada_UNO_Card_Game.png"
-            alt="Juego de Cartas UNO"
-          />
-        </div>
-        <div class="section-footer">
-          <a href="pages/proyectos.html" class="hero-cta secondary"
-            >Ver todos los proyectos</a
-          >
-        </div>
-      </section>
-
-      <section id="portafolio" class="sec">
-        <div class="section-header">
-          <i class="fas fa-briefcase"></i>
-          <h2>Portafolio</h2>
-        </div>
-        <p style="color: var(--text-gray); margin-bottom: 20px">
-          Proyectos de marketing digital, branding, gestión de redes sociales y
-          estrategia de contenido.
-        </p>
-        <div class="portfolio-gallery">
-          <img
-            src="images/document_gallery/Portfolio/Food_Ichiraku_Ramen.png"
-            alt="Food Ichiraku Ramen"
-          />
-          <img
-            src="images/document_gallery/Portfolio/Spacebook_Libreria.png"
-            alt="Spacebook Librería"
-          />
-          <img
-            src="images/document_gallery/Portfolio/Magic_Cine.png"
-            alt="Magic Cine"
-          />
-        </div>
-        <div class="section-footer">
-          <a href="pages/portafolio.html" class="hero-cta secondary"
-            >Explorar Portafolio</a
-          >
-        </div>
-      </section>
-
-      <section id="recursos" class="sec">
-        <div class="section-header">
-          <i class="fas fa-book"></i>
-          <h2>Recursos</h2>
-        </div>
-        <p>
-          Documentos, herramientas, plantillas y otros materiales compartidos a
-          lo largo de mi carrera.
-        </p>
-        <div class="resources-gallery">
-          <img
-            src="images/resources/Imagenes_Documentaciones.png"
-            alt="Imagen Documentaciones"
-          />
-          <img
-            src="images/resources/Imagen_Hojas_Trucos.png"
-            alt="Imagen Hojas de Trucos"
-          />
-          <img
-            src="images/resources/Imagen_Tutoriales.png"
-            alt="Imagen Tutoriales"
-          />
-          <img
-            src="images/resources/Imagen_Herramientas.png"
-            alt="Imagen Herramientas"
-          />
-        </div>
-        <div class="section-footer">
-          <a href="pages/recursos.html" class="hero-cta secondary"
-            >Ir a Recursos</a
-          >
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-content">
-        <div class="footer-brand">Andrea <span>Gutiérrez</span> Blanco</div>
-        <div class="footer-tagline">
-          Ingeniería de Sistemas · Marketing Digital
-        </div>
-        <div class="footer-logo">
-          <img
-            src="../images/icon/Gutbla_logo.svg"
-            alt="Logo"
-            class="logo-img"
-          />
-        </div>
-        <nav class="footer-links">
-          <a href="../index.html"><i class="fas fa-home"></i> Inicio</a>
-          <a href="sobre-mi.html"><i class="fas fa-user"></i> Sobre Mí</a>
-          <a href="proyectos.html"
-            ><i class="fas fa-project-diagram"></i> Proyectos</a
-          >
-          <a href="portafolio.html"
-            ><i class="fas fa-briefcase"></i> Portafolio</a
-          >
-          <a href="recursos.html"><i class="fas fa-book"></i> Recursos</a>
-          <a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
-        </nav>
-        <div class="copyright">
-          &copy; 2026 Andrea Gutiérrez Blanco. Todos los derechos reservados.
+      <div class="social-links animate__animated animate__fadeInUp animate__delay-2-5s">
+        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-link" aria-label="Behance"><i class="fab fa-behance"></i></a>
+        <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="hero-image" aria-hidden="true">
+      <div class="planet-system">
+        <div class="planet"></div>
+        <div class="orbit"><div class="moon"></div></div>
+        <div class="profile-image">
+          <img src="images/perfil/Ilustracion_Perfil.png" alt="Andrea Gutiérrez Blanco - Ilustración de perfil" class="profile-illustration" />
         </div>
       </div>
-    </footer>
-    
-    <script src="js/main.js"></script>
-    <script src="js/home.js"></script>
-  </body>
+    </div>
+  </section>
+
+  <!-- Proyectos recientes -->
+  <section id="proyectos-recientes" class="sec">
+    <div class="section-header">
+      <i class="fas fa-code"></i>
+      <h2>Proyectos Recientes</h2>
+    </div>
+    <div class="project-gallery">
+      <!-- Estas imágenes se cargan desde data/projects.json mediante JavaScript -->
+    </div>
+    <div class="section-footer">
+      <a href="pages/proyectos.html" class="hero-cta secondary">Ver todos los proyectos</a>
+    </div>
+  </section>
+
+  <!-- Portafolio visual -->
+  <section id="portafolio" class="sec">
+    <div class="section-header">
+      <i class="fas fa-briefcase"></i>
+      <h2>Portafolio</h2>
+    </div>
+    <p style="color: var(--text-gray); margin-bottom: 20px;">
+      Proyectos de marketing digital, branding, gestión de redes sociales y estrategia de contenido.
+    </p>
+    <div class="portfolio-gallery">
+      <img src="images/document_gallery/Portfolio/Food_Ichiraku_Ramen.png" alt="Food Ichiraku Ramen" />
+      <img src="images/document_gallery/Portfolio/Spacebook_Libreria.png" alt="Spacebook Librería" />
+      <img src="images/document_gallery/Portfolio/Magic_Cine.png" alt="Magic Cine" />
+    </div>
+    <div class="section-footer">
+      <a href="pages/portafolio.html" class="hero-cta secondary">Explorar Portafolio</a>
+    </div>
+  </section>
+
+  <!-- Recursos -->
+  <section id="recursos" class="sec">
+    <div class="section-header">
+      <i class="fas fa-book"></i>
+      <h2>Recursos</h2>
+    </div>
+    <p>Documentos, herramientas, plantillas y otros materiales compartidos a lo largo de mi carrera.</p>
+    <div class="resources-gallery">
+      <img src="images/resources/Imagenes_Documentaciones.png" alt="Imagen Documentaciones" />
+      <img src="images/resources/Imagen_Hojas_Trucos.png" alt="Imagen Hojas de Trucos" />
+      <img src="images/resources/Imagen_Tutoriales.png" alt="Imagen Tutoriales" />
+      <img src="images/resources/Imagen_Herramientas.png" alt="Imagen Herramientas" />
+    </div>
+    <div class="section-footer">
+      <a href="pages/recursos.html" class="hero-cta secondary">Ir a Recursos</a>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="images/icon/Gutbla_logo.svg" alt="Logo Andrea Gutiérrez Blanco" class="logo-img" />
+    </div>
+    <nav class="footer-links" aria-label="Enlaces de pie de página">
+      <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+      <a href="pages/sobre-mi.html"><i class="fas fa-user"></i> Sobre Mí</a>
+      <a href="pages/proyectos.html"><i class="fas fa-project-diagram"></i> Proyectos</a>
+      <a href="pages/portafolio.html"><i class="fas fa-briefcase"></i> Portafolio</a>
+      <a href="pages/recursos.html"><i class="fas fa-book"></i> Recursos</a>
+      <a href="pages/contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
+    </nav>
+    <div class="copyright">
+      &copy; 2025 Andrea Gutiérrez Blanco. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+<script src="js/home.js"></script>
+</body>
 </html>
