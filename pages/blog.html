@@ -7,11 +7,11 @@
     <title>Blog - Andrea Gutiérrez Blanco</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="icon" type="image/png" href="../images/icon/Gutbla_icon.png" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -22,16 +22,11 @@
     <link rel="stylesheet" href="../css/pages.css" />
   </head>
   <body>
-    <!-- Sidebar global -->
+    
     <div class="global-sidebar">
       <div class="sidebar-logo">
         <img src="../images/icon/Gutbla_logo.svg" alt="Logo" />
       </div>
-      <button class="menu-toggle menu-btn" aria-label="Abrir menú">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
       <nav class="sidebar-nav">
         <ul>
           <li>
@@ -72,111 +67,22 @@
         </ul>
       </nav>
     </div>
+
     <div class="main-container">
-      <!-- Hero de la página -->
       <section class="page-hero">
         <h1>Mi Blog Profesional</h1>
         <p>Artículos sobre tecnología, desarrollo y marketing digital</p>
       </section>
-      <!-- Contenido principal -->
+
       <section class="sec">
         <div class="section-header">
           <i class="fas fa-newspaper"></i>
           <h2>Últimos Artículos</h2>
-        </div>
-        <div class="projects-grid blog-grid">
-          <!-- Artículo 1 -->
-          <div class="project-card">
-            <div
-              class="project-image"
-              style="background: linear-gradient(45deg, #505ff5, #8a4fff)"
-            >
-              <i class="fas fa-code fa-4x" style="color: white"></i>
-            </div>
-            <div class="project-details">
-              <h3>Introducción a React Hooks</h3>
-              <p>
-                Explorando las ventajas y casos de uso de los Hooks en React
-                para simplificar el desarrollo de componentes.
-              </p>
-              <div class="project-tags">
-                <span>React</span>
-                <span>JavaScript</span>
-                <span>Frontend</span>
-              </div>
-              <a href="#" class="btn">Leer artículo</a>
-            </div>
-          </div>
-          <!-- Artículo 2 -->
-          <div class="project-card">
-            <div
-              class="project-image"
-              style="background: linear-gradient(45deg, #00e9b7, #5d8bf4)"
-            >
-              <i class="fas fa-chart-line fa-4x" style="color: white"></i>
-            </div>
-            <div class="project-details">
-              <h3>Estrategias SEO para 2025</h3>
-              <p>
-                Las tendencias más importantes en optimización para motores de
-                búsqueda que debes conocer.
-              </p>
-              <div class="project-tags">
-                <span>SEO</span>
-                <span>Marketing</span>
-                <span>Digital</span>
-              </div>
-              <a href="#" class="btn">Leer artículo</a>
-            </div>
-          </div>
-          <!-- Artículo 3 -->
-          <div class="project-card">
-            <div
-              class="project-image"
-              style="background: linear-gradient(45deg, #ff6b6b, #ffa3a3)"
-            >
-              <i class="fas fa-database fa-4x" style="color: white"></i>
-            </div>
-            <div class="project-details">
-              <h3>MongoDB vs SQL</h3>
-              <p>
-                Comparativa entre bases de datos relacionales y no relacionales
-                para ayudarte a elegir la mejor opción.
-              </p>
-              <div class="project-tags">
-                <span>Database</span>
-                <span>Backend</span>
-                <span>Development</span>
-              </div>
-              <a href="#" class="btn">Leer artículo</a>
-            </div>
-          </div>
-          <!-- Artículo 4 -->
-          <div class="project-card">
-            <div
-              class="project-image"
-              style="background: linear-gradient(45deg, #ffd166, #ffeea3)"
-            >
-              <i class="fas fa-mobile-alt fa-4x" style="color: white"></i>
-            </div>
-            <div class="project-details">
-              <h3>Diseño Responsivo en 2025</h3>
-              <p>
-                Las mejores prácticas para crear experiencias web que se adapten
-                a cualquier dispositivo.
-              </p>
-              <div class="project-tags">
-                <span>UI/UX</span>
-                <span>Responsive</span>
-                <span>Design</span>
-              </div>
-              <a href="#" class="btn">Leer artículo</a>
-            </div>
-          </div>
-        </div>
+
+        <div class="projects-grid blog-grid blog-json-target"></div>
       </section>
     </div>
-    <!-- Footer -->
+
     <footer>
       <div class="footer-content">
         <div class="footer-logo">
@@ -203,7 +109,9 @@
         </div>
       </div>
     </footer>
+
     <script src="../js/main.js"></script>
     <script src="../js/pages.js"></script>
+    <script src="../js/data-loader.js"></script>
   </body>
 </html>

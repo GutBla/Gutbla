@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Marketing Digital",
+    "categoryIcon": "fas fa-chart-line",
+    "items": [
+      {
+        "title": "Magic Cine",
+        "description": "Estrategia de marketing digital para sala de cine independiente: gestión de redes sociales, campañas de contenido, publicidad pagada y análisis de métricas de engagement.",
+        "image": "../images/document_gallery/Portfolio/Magic_Cine.png",
+        "tags": ["Instagram", "Facebook", "Analytics", "Ads"],
+        "tagIcons": ["fab fa-instagram", "fab fa-facebook", "fas fa-chart-pie", "fas fa-ad"],
+        "link": "proyectos.html"
+      }
+    ]
+  },
+  {
+    "category": "Desarrollo Web",
+    "categoryIcon": "fas fa-laptop-code",
+    "items": [
+      {
+        "title": "Food Ichiraku Ramen",
+        "description": "Landing page para restaurante con menú interactivo, sistema de reservas en línea y galería de platos optimizada para conversión.",
+        "image": "../images/document_gallery/Portfolio/Food_Ichiraku_Ramen.png",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "tagIcons": [],
+        "link": "proyectos.html"
+      },
+      {
+        "title": "Spacebook Librería",
+        "description": "Sitio web para librería con catálogo de productos, carrito de compras y panel administrativo integrado.",
+        "image": "../images/document_gallery/Portfolio/Spacebook_Libreria.png",
+        "tags": ["React", "Node.js", "Firebase"],
+        "tagIcons": [],
+        "link": "proyectos.html"
+      }
+    ]
+  }
+]

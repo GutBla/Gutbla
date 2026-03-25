@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Introducción a React Hooks",
+    "description": "Explorando las ventajas y casos de uso de los Hooks en React para simplificar el desarrollo de componentes.",
+    "gradient": "linear-gradient(45deg, #505FF5, #8A4FFF)",
+    "icon": "fas fa-code",
+    "image": "",
+    "tags": ["React", "JavaScript", "Frontend"],
+    "link": "#",
+    "date": "2025-01-15"
+  },
+  {
+    "title": "Estrategias SEO para 2025",
+    "description": "Las tendencias más importantes en optimización para motores de búsqueda que debes conocer este año.",
+    "gradient": "linear-gradient(45deg, #00E9B7, #5D8BF4)",
+    "icon": "fas fa-chart-line",
+    "image": "",
+    "tags": ["SEO", "Marketing", "Digital"],
+    "link": "#",
+    "date": "2025-02-10"
+  },
+  {
+    "title": "MongoDB vs SQL",
+    "description": "Comparativa entre bases de datos relacionales y no relacionales para ayudarte a elegir la mejor opción según tu proyecto.",
+    "gradient": "linear-gradient(45deg, #FF6B6B, #FFA3A3)",
+    "icon": "fas fa-database",
+    "image": "",
+    "tags": ["Database", "Backend", "Development"],
+    "link": "#",
+    "date": "2025-03-05"
+  },
+  {
+    "title": "Diseño Responsivo en 2025",
+    "description": "Las mejores prácticas para crear experiencias web que se adapten perfectamente a cualquier dispositivo.",
+    "gradient": "linear-gradient(45deg, #FFD166, #FFEEA3)",
+    "icon": "fas fa-mobile-alt",
+    "image": "",
+    "tags": ["UI/UX", "Responsive", "Design"],
+    "link": "#",
+    "date": "2025-03-20"
+  }
+]

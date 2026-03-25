@@ -315,22 +315,22 @@
           "icon": "fas fa-tools",
           "items": [
             {
-              "title": "Generador de Diagramas",
-              "description": "Herramienta para crear diagramas de flujo, UML y más.",
-              "image": "images/tools/Portada_Diagram_Tool.png",
-              "pdf": "pdfs/Tools/Diagram_Tool_Guide.pdf"
+              "title": "Simulador Game of Life",
+              "description": "Simulador de población inicial basado en el juego de la vida.",
+              "image": "images/document_gallery/Tool/game-of-life-simulator.png",
+              "pdf": ""
             },
             {
-              "title": "Editor de Código",
-              "description": "Guía para configurar tu editor de código favorito.",
-              "image": "images/tools/Portada_Code_Editor.png",
-              "pdf": "pdfs/Tools/Code_Editor_Guide.pdf"
+              "title": "Generador de Tabla de Verdad",
+              "description": "Herramienta para generar tablas de verdad automáticamente.",
+              "image": "images/document_gallery/Tool/generador-de-tabla-de-verdad.png",
+              "pdf": ""
             },
             {
-              "title": "Gestor de Proyectos",
-              "description": "Herramienta para organización y gestión de proyectos.",
-              "image": "images/tools/Portada_Project_Manager.png",
-              "pdf": "pdfs/Tools/Project_Manager_Guide.pdf"
+              "title": "Editor de Proposición Lógica",
+              "description": "Editor para construir y analizar proposiciones lógicas.",
+              "image": "images/document_gallery/Tool/editor-proposicion-logica.png",
+              "pdf": ""
             }
           ]
         }
